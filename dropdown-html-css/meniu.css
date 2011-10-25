@@ -12,10 +12,30 @@ ul li a {
 ul li a:hover {
 	color:#999;
 }
-ul li div {
+/*
+ Observati semnul ">". Fara el, la exemplul cu submeniuri multiple, s-ar deschide toate submeniurile.
+ Selecteaza doar elementul strict urmator, adica, in urmatorul caz:
+	<ul>
+		<li>
+			<div>
+				<span>acesta nu</span>
+			</div>
+			<span>acesta da</span>
+		</li>
+	</ul>
+Selectorul:
+	ul li > span
+
+Ar alege doar span-ul cu textul "acesta da".
+
+Selectorul:
+	ul li span
+Ar alege amble span-uri din codul de mai sus.
+*/
+ul li > div {
 	position:absolute;
 	display:none;
 }
-ul li:hover div {
+ul li:hover > div {
 	display:block;
 }
