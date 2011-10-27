@@ -1,0 +1,25 @@
+header, footer, section {
+	display:block;
+	width:90%;
+	margin:5px auto;
+}
+header, footer {
+	background-color:#ccc;
+	border:1px solid #000;
+}
+section {
+	background-color:#fcc;
+}
+
+#content {
+	background-color:#cfc;
+
+}
+aside {
+	background-color:#ccf;
+	width:200px;
+	float:right;
+}
+.clearfix {
+	clear:both;
+}
