@@ -7,6 +7,6 @@ $a = array(
 );
 
 foreach ($a as $k => $val) {
-	echo "val = ", $val, " ";
+	echo "val = ", $val, "\n";
 	echo "k = ",$k,"\n\n";
 }
