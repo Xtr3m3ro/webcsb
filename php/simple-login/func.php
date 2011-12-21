@@ -1,7 +1,7 @@
 <?php
 
 // All the functionality is implemented in this file
-
+// When needed to change from a static user list to mysql-based authentication I would just change a few functions in this file, not browsing the whole project
 $users = array(
     'ion' => 'iLoveMyMom',
     'demo' => 'demo',
