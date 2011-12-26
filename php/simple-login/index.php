@@ -1,5 +1,5 @@
 <?php
-require_once "func.php";
+require_once "func_sesiuni.php";
 
 // this is more like a controller... sees what to do and uses functinos in func.php to do it
 
